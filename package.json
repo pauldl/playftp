@@ -1,0 +1,31 @@
+{
+  "name": "playftp",
+  "version": "1.0.0",
+  "description": "An ftp server for receiving 3Play clips.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pauldl/playftp.git"
+  },
+  "keywords": [
+    "newtek",
+    "3play",
+    "replay",
+    "clips"
+  ],
+  "author": "Paul DeLeeuw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pauldl/playftp/issues"
+  },
+  "homepage": "https://github.com/pauldl/playftp#readme",
+  "dependencies": {
+    "dotenv": "^16.4.2",
+    "ffprobe": "^1.1.2",
+    "ftp-srv": "^4.6.3",
+    "netmask": "^2.0.2"
+  }
+}
